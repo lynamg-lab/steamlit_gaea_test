@@ -25,7 +25,7 @@ except Exception:
 st.set_page_config(page_title="European Livestock Trends", layout="wide")
 st.title("European Livestock Emissions")
 
-DEFAULT_PREPARED = r"C:\Users\lynam\Documents\01_steamlit_gaea\1_Donnees\livestock_PREPARED_long.csv"
+DEFAULT_PREPARED = "1_Donnees/livestock_PREPARED_long.csv"
 REGION_LABELS = ["Europe (group total)", "EU (group total)", "EU/EEA+UK (group total)"]
 REGION_SET = set(REGION_LABELS)
 
