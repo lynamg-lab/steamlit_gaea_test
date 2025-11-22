@@ -1,0 +1,1 @@
+Install deps with `pip install -r requirements.txt` and run `streamlit run app.py`.
